@@ -8,7 +8,17 @@ git clone https://github.com/asdzjh/Youtube-data-analysis.git
 
 # Navigate to the project directory
 cd Youtube-data-analysis
+```
+Then you need to have a openai API key to replace the your_api_key and your_base_url in main.py:
+```bash
+client = OpenAI(
+    api_key= your_api_key,
+    base_url= your_base_url
+)
+```
 
+To build the project from scratch:
+```bash
 # Build all in Docker
 docker-compose up --build
 
