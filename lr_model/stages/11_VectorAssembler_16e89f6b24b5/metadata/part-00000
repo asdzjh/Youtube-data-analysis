@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1746673806208,"sparkVersion":"3.5.1","uid":"VectorAssembler_16e89f6b24b5","paramMap":{"outputCol":"features","inputCols":["title_tfidf","description_tfidf","country_index","tags_features","scaled_numeric_features"]},"defaultParamMap":{"outputCol":"VectorAssembler_16e89f6b24b5__output","handleInvalid":"error"}}
