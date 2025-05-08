@@ -54,8 +54,8 @@ def predict_viral_api(video: VideoData):
 
 # OpenAI API 
 client = OpenAI(
-    api_key="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",
-    base_url="https://openrouter.ai/api/v1"
+    api_key=your_api_key,
+    base_url=your_base_url
 )
 
 def generate_title(topic):
