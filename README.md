@@ -11,5 +11,8 @@ cd Youtube-data-analysis
 
 # Build all in Docker
 docker-compose up --build
+
+# Open the web page in your browser
+http://localhost:8501/
 ```
 Start to have fun!
